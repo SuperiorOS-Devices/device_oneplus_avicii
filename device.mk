@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget
 
+# Properties
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+-include $(LOCAL_PATH)/product_props.mk
+
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_FULL_TREBLE_OVERRIDE := true
