@@ -116,6 +116,9 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/vendor.init.qcom.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/init/hw/init.qcom.rc
+
 # DeviceSettings
 PRODUCT_PACKAGES += \
     DeviceSettings
