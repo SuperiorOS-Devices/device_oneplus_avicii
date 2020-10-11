@@ -17,9 +17,8 @@
 
         <SwitchPreference
             android:key="dc"
-            android:summary="@string/dc_dimming_enable_summary"
-            android:title="@string/dc_dimming_enable_title" />
-
+            android:summary="@string/dc_mode_summary"
+            android:title="@string/dc_mode_title" />
     </PreferenceCategory>
 
     <PreferenceCategory
