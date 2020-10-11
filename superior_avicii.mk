@@ -24,11 +24,12 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
-# PixelExperience Properties
+# Superior Properties
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_LAUNCHER := oplauncher
+EXTRA_FOD_ANIMATIONS := true
 
 PRODUCT_NAME := superior_avicii
 PRODUCT_DEVICE := avicii
