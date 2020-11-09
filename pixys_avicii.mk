@@ -22,9 +22,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_avicii
+# PixysOS Properties
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+
+PRODUCT_NAME := pixys_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -34,4 +38,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlusNord \
-    PRODUCT_NAME=OnePlusNord
+    PRODUCT_NAME=OnePlusNord \
+    PRIVATE_BUILD_DISC="redfin-user 11 RD1A.201105.003.A1 6886512 release-keys"
+
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys"
