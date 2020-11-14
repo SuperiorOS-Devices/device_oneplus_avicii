@@ -6,8 +6,8 @@
     "branch": "lineage-18.0"
   },
   {
-    "repository": "android_kernel_oneplus_sm7250",
-    "target_path": "kernel/oneplus/sm7250"
+    "repository": "kernel_oneplus_avicii",
+    "target_path": "kernel/oneplus/avicii"
   },
   {
     "repository": "vendor_oneplus_avicii",

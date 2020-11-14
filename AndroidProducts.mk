@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_avicii.mk
+    $(LOCAL_DIR)/superior_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_avicii-userdebug \
-    pixys_avicii-eng
+    superior_avicii-userdebug \
+    superior_avicii-eng
