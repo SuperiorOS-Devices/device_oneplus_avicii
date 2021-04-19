@@ -31,5 +31,10 @@
     "repository": "vendor_oneplus-firmware",
     "target_path": "vendor/oneplus/firmware",
     "remote": "superior-gitlab"
+  },
+  {
+    "repository": "vendor_oneplus_avicii-camera",
+    "target_path": "vendor/oneplus/avicii-camera",
+    "remote": "superior-gitlab"
   }
 ]
