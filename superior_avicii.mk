@@ -24,12 +24,15 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 # Inherit some common Superior stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
-#Gapps
+# Gapps
 TARGET_GAPPS_ARCH := arm64
 
 # PixelExperience Properties
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_USES_CUSTOM_AVB_KEY := true
+
+# Superior Stuffs
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 PRODUCT_NAME := superior_avicii
 PRODUCT_DEVICE := avicii
