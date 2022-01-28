@@ -16,14 +16,11 @@
 */
 -->
 <resources>
-    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
-    <dimen name="config_rounded_mask_size">190px</dimen>
-
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">48px</dimen>
+    <dimen name="status_bar_padding_start">24px</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">30px</dimen>
+    <dimen name="status_bar_padding_end">8px</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">27px</dimen>
@@ -32,10 +29,10 @@
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">62px</dimen>
+    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
-    <dimen name="system_icons_keyguard_padding_end">10px</dimen>
+    <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
 
     <!-- The absolute side margins of quick settings -->
     <dimen name="rounded_corner_content_padding">30px</dimen>
@@ -43,7 +40,9 @@
     <!-- The indication margin of keyguard -->
     <dimen name="keyguard_indication_margin_bottom">8dp</dimen>
 
-   <!-- Location on the screen of the center of the physical power button. -->
+    <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">875px</dimen>
 
+    <!-- Margin on the left side of the heads up notification -->
+    <dimen name="heads_up_status_bar_padding_start">8px</dimen>
 </resources>
