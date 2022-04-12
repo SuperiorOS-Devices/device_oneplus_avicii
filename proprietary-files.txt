@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Nord-user 11 RP1A.201005.001 2110142331 release-keys 
+# All unpinned blobs below are extracted from Nord-user 11 RP1A.201005.001 2203101722 release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -112,11 +112,6 @@ vendor/lib64/hw/audio.primary.lito.so
 vendor/firmware/tfa98xx.cnt
 
 # Camera
-system/lib64/libcamera_metadata.so
-vendor/etc/init/calibrationOutput_uw.rc
-vendor/etc/init/calibrationOutput_wt.rc
-vendor/firmware/CAMERA_ICP.elf
-system_ext/lib64/libCameraMDMHelper.so
 -system_ext/framework/vendor.oneplus.hardware.camera-V1.0-java.jar
 -system_ext/framework/vendor.oneplus.hardware.CameraMDMHIDL-V1.0-java.jar
 system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so
@@ -236,7 +231,6 @@ vendor/lib64/libAlgoProcess.so
 vendor/lib64/libaps_frame_registration.so
 vendor/lib64/libapsdarksight.so
 vendor/lib64/libapsexif.so
-vendor/lib64/libaps_frame_registration.so
 vendor/lib64/libapsjpeg.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_beautyshot_4.0.so
@@ -280,10 +274,8 @@ vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2svarnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libchilog.so
-vendor/lib64/libcomprcapture.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcvface_api.so
-vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libdualcam_image_optical_zoom.so
 vendor/lib64/libdualcam_optical_zoom_control.so
@@ -342,12 +334,11 @@ vendor/lib64/libVDBlurless.so
 vendor/lib64/libVDDualCameraBlurlessAPI.so
 vendor/lib64/libVDFusionBlurlessAPI_v2.so
 vendor/lib64/libVDSuperPhotoAPI.so
-vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/vendor.oneplus.hardware.camera@1.0.so
 vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|afeca01f1fc2619ddf1aada01d42735ab9efa682
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|040754908683f59ee1b5b7f962f659fbed3a515a
 
 # Charger
 vendor/bin/dashd
@@ -383,7 +374,6 @@ vendor/lib64/libqtikeymaster4.so
 
 # NFC
 vendor/etc/libese-nxp.conf
-vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nci_beijingbus.conf
 vendor/etc/libnfc-nci_changancard.conf
 vendor/etc/libnfc-nci_productline.conf
