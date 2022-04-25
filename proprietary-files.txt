@@ -114,6 +114,7 @@ vendor/firmware/tfa98xx.cnt
 # Camera
 -system_ext/framework/vendor.oneplus.hardware.CameraMDMHIDL-V1.0-java.jar
 -system_ext/framework/vendor.oneplus.hardware.camera-V1.0-java.jar
+system_ext/lib64/libCameraMDMHelper.so
 system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so
 system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
 system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so
@@ -292,12 +293,15 @@ vendor/lib64/libcapiv2svarnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libcomprcapture.so
 vendor/lib64/libcvface_api.so
 vendor/lib64/libcvp_common.so
+vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libdualcam_image_optical_zoom.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libdualcamirfusion.arcsoft.so
+vendor/lib64/libeffects.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libhistogram.so
@@ -334,6 +338,7 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
+vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
