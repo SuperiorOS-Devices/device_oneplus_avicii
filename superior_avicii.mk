@@ -27,13 +27,15 @@ $(call inherit-product, vendor/superior/config/common.mk)
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 
-# PixelExperience Properties
+# Superior Extra Stuffs
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_USES_CUSTOM_AVB_KEY := true
-
-# Superior Stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 PRODUCT_NAME := superior_avicii
 PRODUCT_DEVICE := avicii
