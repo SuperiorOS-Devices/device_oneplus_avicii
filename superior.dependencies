@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "hardware_oplus",
+    "target_path": "hardware/oplus"
+  },
+  {
+    "repository": "kernel_oneplus_avicii",
+    "target_path": "kernel/oneplus/avicii"
+  },
+  {
+    "repository": "vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii"
+  },
+  {
+    "repository": "vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus/firmware",
+    "branch": "thirteen",
+    "remote": "superior-gitlab"
+  }
+]
