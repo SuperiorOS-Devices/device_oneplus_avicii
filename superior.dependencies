@@ -16,5 +16,9 @@
     "target_path": "vendor/oneplus/firmware",
     "branch": "thirteen",
     "remote": "superior-gitlab"
+  },
+  {
+     "repository":"android_packages_resources_devicesettings",
+     "target_path":"packages/resources/devicesettings"
   }
 ]
