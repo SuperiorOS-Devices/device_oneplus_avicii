@@ -1,0 +1,21 @@
+[
+  {
+    "repository": "hardware_oplus",
+    "target_path": "hardware/oplus"
+  },
+  {
+    "repository": "kernel_oneplus_avicii",
+    "target_path": "kernel/oneplus/avicii"
+  },
+  {
+    "repository": "vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii",
+    "remote":"superior-gitlab"
+  },
+  {
+    "repository":"LineageOS/android_packages_resources_devicesettings",
+    "target_path":"packages/resources/devicesettings",
+    "branch":"lineage-21.0",
+    "remote":"github"
+  }
+]
