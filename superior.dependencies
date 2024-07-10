@@ -1,9 +1,5 @@
 [
   {
-    "repository": "hardware_oplus",
-    "target_path": "hardware/oplus"
-  },
-  {
     "repository": "kernel_oneplus_avicii",
     "target_path": "kernel/oneplus/avicii"
   },
